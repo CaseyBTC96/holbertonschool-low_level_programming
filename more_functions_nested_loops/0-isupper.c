@@ -1,8 +1,15 @@
-#include "main.h"
 /*
- * main - write a function that checks for uppercase character.
- * @c: the int for the paramaters of my function
- * Return: 0
+ * File: 0-isupper.c
+ * Auth: Casey Paul
+ */
+
+#include "main.h"
+
+/**
+ * _isupper - Checks for uppercase characters.
+ * @c: The character to be checked.
+ *
+ * Return: 1 if character is uppercase, 0 otherwise.
  */
 int _isupper(int c)
 {
