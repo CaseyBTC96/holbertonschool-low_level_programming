@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-    char *s;
+    char *str;
 
-    s = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(s);
+    str = "0123456789";
+    puts_half(str);
     return (0);
 }
