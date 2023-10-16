@@ -14,17 +14,13 @@
  */
 int _sqrt_recursion(int n)
 {
+	int root = 0;
+
 	if (n < 0)
 		return (-1);
 
-	if (n == 0 || n == 1)
-		return (n);
+	if (n == 1)
+		return (1);
 
-	int root = _sqrt_recursion(n - 1);
-
-	if (root * root <= n)
-		return (root);
-
-	else
-		return (root - 1);
+	return (root):
 }
