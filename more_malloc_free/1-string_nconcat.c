@@ -10,7 +10,7 @@
  * Return: pointer
  */
 
-charr *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *point;
 	unsigned int i = 0, j = 0, k;
