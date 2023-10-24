@@ -9,7 +9,7 @@
  * Return: pointer
  */
 
-void *_calloc(unsigned int nmeb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *point;
 	unsigned int i = 0;
