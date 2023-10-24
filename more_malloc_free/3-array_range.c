@@ -17,7 +17,7 @@ int *array_range(int min, int max)
 	if (min > max)
 		return (NULL);
 	positions = (max - min) + 1;
-	point = malloc(positionss * sizeof(int));
+	point = malloc(positions * sizeof(int));
 	if (point == NULL)
 		return (NULL);
 	for (; count < positions; count++)
