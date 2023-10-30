@@ -8,14 +8,15 @@
  *
  * Descritpion: Defines metadata about the dog and type of dog's struct
  */
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+};
+
 /**
- * dog_t - typedef for strruct dog
+ * dog_t - typedef for struct dog
  */
 typedef struct dog dog_t;
 
