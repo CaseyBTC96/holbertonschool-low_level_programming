@@ -1,5 +1,5 @@
 #ifndef FUNCTION_POINTERS_H
-#define FUNCTION_POINTEERS_H
+#define FUNCTION_POINTERS_H
 
 /*
  * File: function_pointers.h
