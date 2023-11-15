@@ -6,7 +6,7 @@
  * @index: index.
  * Return: 1 if it worked, or -1 if an error occurred.
  */
-int set_bit(unsigned long  in *n, unsigned int index)
+int set_bit(unsigned long  int *n, unsigned int index)
 {
 	unsigned long int aux = 1 << index;
 
