@@ -2,11 +2,11 @@
 
 int _strlen_recursion(char *s);
 
-/**
+/*
  * add_node_end - adds a new node at the end of a list_t list.
  * @head: pointer to the first element of the list.
  * @str: string to set in the new node.
- * return: address of the new element, or NULL if it failed.
+ * Return: address of the new element, or NULL if it failed.
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -41,7 +41,7 @@ list_t *add_node_end(list_t **head, const char *str)
 /**
  * _strlen_recursion - returns the length of a string.
  * @s: string.
- * return: length of @s.
+ * Return: length of @s.
  */
 int _strlen_recursion(char *s)
 {
