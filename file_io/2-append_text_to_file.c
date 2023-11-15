@@ -28,6 +28,6 @@ int append_text_to_file(const char *filename, char *text_content)
 		close(file_descriptor);
 		return (-1);
 	}
-	close(file_description);
+	close(file_descriptor);
 	return (1);
 }
