@@ -5,7 +5,7 @@
  * @head: pointer to the list.
  * Return: head node’s data (n).
  **/
-int pop_listint(listint_t **heaad)
+int pop_listint(listint_t **head)
 {
 	int data;
 	listint_t *first_node = *head;
