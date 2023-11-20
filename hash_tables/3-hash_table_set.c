@@ -13,7 +13,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	char *value_ = NULL, *key_ = NULL;
 	hash_node_t *new_node = NULL;
 
-	if (!ht || !key || !value || strlen(key) ==0)
+	if (!ht || !key || !value || strlen(key) == 0)
 		return (0);
 
 	/* allocate memory for the node and duplicate strings */
@@ -75,7 +75,7 @@ int hash_table_update(hash_table_t *ht, char *key_, char *value_,
 		temp_node = temp_node->next;
 	}
 	temp_node = (ht->array)[index];
-	new_node->next =temp_node;
+	new_node->next = temp_node;
 	(ht->array)[index] = new_node;
 	return (1);
 }
