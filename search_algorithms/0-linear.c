@@ -2,9 +2,10 @@
 /**
  * linear_search - searches linear
  * @array: array to search
- * @size: size to go through
+ * @size: The number of elements in the array
  * @value: value to search
- * Return: int value
+ * Return: If the value is not present or the array is NULL, -1.
+ *	   Otherwise, the first inndex where the value is located.
  */
 int linear_search(int *array, size_t size, int value)
 {
